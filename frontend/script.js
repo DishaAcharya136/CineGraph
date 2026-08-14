@@ -1,4 +1,4 @@
-const API_URL = "/api/movies";
+const API_URL = "http://localhost:8080/api/movies";
 
 const movieGrid = document.getElementById("movie-grid");
 const loading = document.getElementById("loading");
