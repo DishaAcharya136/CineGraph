@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CineGraph</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+<header class="navbar">
+    <div class="logo">Cine<span>Graph</span></div>
+    <nav>
+        <a href="#movies">Movies</a>
+        <a href="#about">About</a>
+    </nav>
+</header>
+
+<main>
+
+    <section class="hero">
+        <div>
+            <p class="eyebrow">GRAPH-POWERED MOVIE EXPLORER</p>
+            <h1>Discover movies through their <span>connections.</span></h1>
+
+            <p class="hero-text">Explore movies, directors and actors connected through a graph database.</p>
+
+            <a href="#movies" class="hero-button">Explore Movies</a>
+        </div>
+    </section>
+
+    <section id="movies" class="movies-section">
+
+        <div class="section-heading">
+
+            <div>
+                <p class="eyebrow">CINEGRAPH LIBRARY</p>
+                <h2>Explore Movies</h2>
+            </div>
+
+            <span id="movie-count"></span>
+        </div>
+
+
+        <div id="loading" class="state">
+            Loading movies...
+        </div>
+
+        <div id="error" class="state error hidden">
+            Unable to load movies. Please try again.
+        </div>
+
+        <div id="empty" class="state hidden">
+            No movies found.
+        </div>
+
+        <div id="movie-grid" class="movie-grid"></div>
+
+    </section>
+
+
+
+
+    <section id="about" class="about-section">
+
+        <p class="eyebrow">WHY A GRAPH?</p>
+        <h2>Movies are more than rows of data.</h2>
+        <p>CineGraph represents movies, people and their relationships as a graph, making connected information easier to explore.</p>
+
+    </section>
+
+</main>
+
+<footer>
+    <p>CineGraph · Powered by CognoDB</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

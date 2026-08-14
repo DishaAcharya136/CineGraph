@@ -1,0 +1,3 @@
+cognodb.uri=bolt+s://db-9ac26200.databases.cognodb.com
+cognodb.username=cognodb
+cognodb.password=9753e8ebab3609c61df359993687d62a
